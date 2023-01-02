@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	#cities{
+		width: 8.5%;
+		height: 200px;
+		margin-right: 3px;
+	}
+	</style>
+</head>
+<body>
+	<form id="form_id">
+		<input type="text" id="login" placeholder="login">
+		<input type="password" id="password" placeholder="password">
+		<button type="button" onclick="validate()">Login</button>
+	</form>
+
+	<hr>
+
+	<div id="content"></div>
+	<div id="map">
+		<div id="countries">
+			<button type="button" onclick="showUsaCities()">USA</button>
+			<button type="button" onclick="showCanadaCities()">Canada</button>
+		</div>
+		<div id="cities">cities</div>
+		<div id="streets">streets</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
